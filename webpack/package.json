@@ -3,9 +3,9 @@
     "private": true,
     "version": "0.0.0",
     "scripts": {
-        "copyasset": "cp ../../assets/pdf-open-parameters.pdf dist",
-        "build": "rm -rf dist && mkdir dist && webpack --mode production && npm run copyasset",
-        "dev": "rm -rf dist && mkdir dist && npm run copyasset && webpack-dev-server"
+        "copy": "cp ../assets/pdf-open-parameters.pdf dist",
+        "build": "rm -rf dist && mkdir dist && webpack --mode production && npm run copy",
+        "dev": "rm -rf dist && mkdir dist && npm run copy && webpack-dev-server"
     },
     "dependencies": {
         "@react-pdf-viewer/core": "2.0.0",

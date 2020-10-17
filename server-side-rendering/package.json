@@ -3,8 +3,8 @@
     "private": true,
     "version": "0.0.0",
     "scripts": {
-        "copyasset": "cp ../../assets/pdf-open-parameters.pdf dist",
-        "build": "rm -rf dist && webpack --mode production && npm run copyasset",
+        "copy": "cp ../assets/pdf-open-parameters.pdf dist",
+        "build": "rm -rf dist && webpack --mode production && npm run copy",
         "dev": "npm run build && nodemon index.js"
     },
     "dependencies": {
