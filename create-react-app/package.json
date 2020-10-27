@@ -3,6 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "dependencies": {
+    "@react-pdf-viewer/core": "2.1.0",
+    "@react-pdf-viewer/default-layout": "2.1.0",
+    "pdfjs-dist": "2.5.207",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "^3.4.3"
@@ -26,10 +29,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@react-pdf-viewer/core": "2.0.0",
-    "@react-pdf-viewer/default-layout": "2.0.0",
-    "pdfjs-dist": "2.5.207"
   }
 }
