@@ -9,8 +9,15 @@ const App = () => {
     const defaultLayoutPluginInstance = defaultLayoutPlugin();
 
     return (
-        <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.5.207/build/pdf.worker.js">
-            <div style={{ height: '750px' }}>
+        <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.6.347/build/pdf.worker.js">
+            <div
+                style={{
+                    height: '750px',
+                    width: '900px',
+                    marginLeft: 'auto',
+                    marginRight: 'auto',
+                }}
+            >
                 <Viewer
                     fileUrl="/pdf-open-parameters.pdf"
                     plugins={[
