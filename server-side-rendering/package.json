@@ -8,8 +8,8 @@
         "dev": "npm run build && nodemon index.js"
     },
     "dependencies": {
-        "@react-pdf-viewer/core": "2.3.2",
-        "@react-pdf-viewer/default-layout": "2.3.2",
+        "@react-pdf-viewer/core": "2.4.0",
+        "@react-pdf-viewer/default-layout": "2.4.0",
         "pdfjs-dist": "2.6.347",
         "react": "^17.0.1",
         "react-dom": "^17.0.1"

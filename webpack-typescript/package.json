@@ -1,6 +1,7 @@
 {
-    "name": "react-pdf-viewer-webpack-typescript-demo",
-    "version": "1.6.0",
+    "name": "react-pdf-viewer-webpack-typescript",
+    "private": true,
+  "version": "0.0.0",
     "scripts": {
         "copy": "cp ../assets/pdf-open-parameters.pdf dist",
         "typecheck": "tsc --noEmit",
@@ -8,8 +9,8 @@
         "dev": "rm -rf dist && mkdir dist && npm run copy && webpack-dev-server"
     },
     "dependencies": {
-        "@react-pdf-viewer/core": "2.3.2",
-        "@react-pdf-viewer/default-layout": "2.3.2",
+        "@react-pdf-viewer/core": "2.4.0",
+        "@react-pdf-viewer/default-layout": "2.4.0",
         "pdfjs-dist": "2.6.347",
         "react": "^17.0.1",
         "react-dom": "^17.0.1"
