@@ -1,4 +1,4 @@
-This folder demonstrates how to bundle [React PDF viewer](https://react-pdf-viewer.dev) with [NextJS](https://nextjs.org/)
+This folder demonstrates how to use [React PDF viewer](https://react-pdf-viewer.dev) with [NextJS](https://nextjs.org/).
 
 ## Install
 
