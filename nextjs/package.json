@@ -1,0 +1,19 @@
+{
+    "name": "react-pdf-viewer-nextjs",
+    "private": true,
+    "version": "0.0.0",
+    "scripts": {
+        "copy": "rm -rf public && mkdir public && cp ../assets/pdf-open-parameters.pdf public",
+        "dev": "npm run copy && next dev",
+        "build": "npm run copy && next build",
+        "start": "npm run copy && next start"
+    },
+    "dependencies": {
+        "@react-pdf-viewer/core": "2.4.0",
+        "@react-pdf-viewer/default-layout": "2.4.0",
+        "next": "^10.0.6",
+        "pdfjs-dist": "2.6.347",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1"
+    }
+}
