@@ -1,0 +1,39 @@
+{
+  "name": "react-pdf-viewer-rescripts",
+  "private": true,
+  "version": "0.0.0",
+  "dependencies": {
+    "@react-pdf-viewer/core": "2.4.0",
+    "@react-pdf-viewer/default-layout": "2.4.0",
+    "pdfjs-dist": "2.6.347",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "^4.0.2"
+  },
+  "devDependencies": {
+    "@rescripts/cli": "^0.0.15",
+    "@rescripts/rescript-env": "^0.0.12"
+  },
+  "scripts": {
+    "start": "rescripts start",
+    "build": "rescripts build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "rescripts": [
+    "env"
+  ]
+}
