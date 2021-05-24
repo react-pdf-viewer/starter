@@ -9,8 +9,8 @@
         "start": "npm run copy && next start"
     },
     "dependencies": {
-        "@react-pdf-viewer/core": "2.4.1",
-        "@react-pdf-viewer/default-layout": "2.4.1",
+        "@react-pdf-viewer/core": "2.5.0",
+        "@react-pdf-viewer/default-layout": "2.5.0",
         "next": "^10.1.3",
         "pdfjs-dist": "2.7.570",
         "react": "^17.0.2",
