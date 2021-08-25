@@ -3,17 +3,17 @@
   "private": true,
   "version": "0.0.0",
   "dependencies": {
-    "@react-pdf-viewer/core": "2.5.0",
-    "@react-pdf-viewer/default-layout": "2.5.0",
-    "pdfjs-dist": "2.6.347",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-scripts": "^4.0.1"
+    "@react-pdf-viewer/core": "2.7.2",
+    "@react-pdf-viewer/default-layout": "2.7.2",
+    "pdfjs-dist": "2.9.359",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.3"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "eject": "react-scripts eject"
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "eject": "react-app-rewired eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -29,5 +29,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-app-rewired": "^2.1.8"
   }
 }
