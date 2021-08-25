@@ -30,7 +30,7 @@ module.exports = {
         extensions: ['.js', '.jsx'],
     },
     devServer: {
-        contentBase: path.join(__dirname, 'dist'),
+        static: path.join(__dirname, 'dist'),
         historyApiFallback: true,
         port: 8001,
     },

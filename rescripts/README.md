@@ -4,21 +4,21 @@ This folder demonstrates how to use [React PDF viewer](https://react-pdf-viewer.
 
 * Install the dependencies
 
-~~~ console
-npm install
-~~~
+```console
+$ npm install
+```
 
 * Production build
 
-~~~ console
-npm run build
-~~~
+```console
+$ npm run build
+```
 
 * Run locally
 
-~~~ console
-npm run start
-~~~
+```console
+$ npm run start
+```
 
 Visit http://localhost:3000 to see it in action.
 
@@ -26,7 +26,7 @@ Visit http://localhost:3000 to see it in action.
 
 [App.js](src/App.js):
 
-~~~ javascript
+```js
 import { Viewer, Worker } from '@react-pdf-viewer/core';
 import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout';
 
@@ -47,4 +47,4 @@ return (
         </div>
     </Worker>
 );
-~~~
+```

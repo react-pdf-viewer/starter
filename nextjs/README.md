@@ -4,21 +4,21 @@ This folder demonstrates how to use [React PDF viewer](https://react-pdf-viewer.
 
 * Install the dependencies
 
-~~~ console
-npm install
-~~~
+```console
+$ npm install
+```
 
 * Build
 
-~~~ console
-npm run build
-~~~
+```console
+$ npm run build
+```
 
 * Run locally
 
-~~~ console
-npm run dev
-~~~
+```console
+$ npm run dev
+```
 
 Visit http://localhost:3000
 
@@ -26,15 +26,15 @@ Visit http://localhost:3000
 
 [pages/_app.js](pages/_app.js):
 
-~~~ javascript
+```js
 // Import the styles provided by the react-pdf-viewer packages
 import '@react-pdf-viewer/core/lib/styles/index.css';
 import '@react-pdf-viewer/default-layout/lib/styles/index.css';
-~~~
+```
 
 [pages/index.js](pages/index.js):
 
-~~~ javascript
+```js
 import { Viewer, Worker } from '@react-pdf-viewer/core';
 import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout';
 
@@ -44,7 +44,7 @@ import '@react-pdf-viewer/default-layout/lib/styles/index.css';
 const defaultLayoutPluginInstance = defaultLayoutPlugin();
 
 return (
-    <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.7.570/build/pdf.worker.js">
+    <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.9.359/build/pdf.worker.js">
         <div style={{ height: '750px' }}>
             <Viewer
                 fileUrl="/pdf-open-parameters.pdf"
@@ -55,4 +55,4 @@ return (
         </div>
     </Worker>
 );
-~~~
+```
