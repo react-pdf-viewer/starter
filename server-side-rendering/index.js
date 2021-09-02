@@ -3,13 +3,13 @@ require.extensions['.css'] = () => {};
 
 require('@babel/register')({
     plugins: [
-        ['module-resolver', {
-            'root': ['.']
-        }]
+        [
+            'module-resolver',
+            {
+                root: ['.'],
+            },
+        ],
     ],
-    presets: [
-        '@babel/preset-env',
-        '@babel/preset-react'
-    ]
+    presets: ['@babel/preset-env', '@babel/preset-react'],
 });
 require('./src/server');

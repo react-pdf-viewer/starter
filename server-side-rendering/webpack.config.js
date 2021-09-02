@@ -1,21 +1,18 @@
 const path = require('path');
-const HtmlWebPackPlugin = require("html-webpack-plugin");
+const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
     entry: './src/client.jsx',
     output: {
         path: path.join(__dirname, 'dist'),
-        filename: '[name].[contenthash].js'
+        filename: '[name].[contenthash].js',
     },
     module: {
         rules: [
             {
                 test: /\.css$/,
-                use: [
-                    MiniCssExtractPlugin.loader,
-                    'css-loader',
-                ],
+                use: [MiniCssExtractPlugin.loader, 'css-loader'],
             },
             {
                 test: /\.js(x?)$/,

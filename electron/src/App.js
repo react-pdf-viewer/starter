@@ -10,7 +10,7 @@ const App = () => {
 
     return (
         <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.9.359/build/pdf.worker.js">
-            <div 
+            <div
                 style={{
                     height: '750px',
                     width: '900px',
@@ -20,9 +20,7 @@ const App = () => {
             >
                 <Viewer
                     fileUrl={`${process.env.PUBLIC_URL}/pdf-open-parameters.pdf`}
-                    plugins={[
-                        defaultLayoutPluginInstance,
-                    ]}
+                    plugins={[defaultLayoutPluginInstance]}
                 />
             </div>
         </Worker>

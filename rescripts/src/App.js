@@ -20,9 +20,7 @@ const App = () => {
             >
                 <Viewer
                     fileUrl={`${process.env.PUBLIC_URL}/pdf-open-parameters.pdf`}
-                    plugins={[
-                        defaultLayoutPluginInstance,
-                    ]}
+                    plugins={[defaultLayoutPluginInstance]}
                 />
             </div>
         </Worker>

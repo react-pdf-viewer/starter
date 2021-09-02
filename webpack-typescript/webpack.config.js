@@ -1,12 +1,12 @@
 const path = require('path');
-const HtmlWebPackPlugin = require("html-webpack-plugin");
+const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
     entry: './src/index.tsx',
     output: {
         path: path.join(__dirname, 'dist'),
-        filename: '[name].[contenthash].js'
+        filename: '[name].[contenthash].js',
     },
     module: {
         rules: [
@@ -22,7 +22,7 @@ module.exports = {
             {
                 test: /\.ts(x?)$/,
                 exclude: /node_modules/,
-                use: ['babel-loader', 'ts-loader']
+                use: ['babel-loader', 'ts-loader'],
             },
         ],
     },
