@@ -9,6 +9,6 @@
         "resolveJsonModule": true,
         "target": "esnext",
         "jsx": "react",
-        "baseUrl": ".",
+        "baseUrl": "."
     }
 }

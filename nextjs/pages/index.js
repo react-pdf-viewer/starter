@@ -16,15 +16,10 @@ const HomePage = () => {
                     marginRight: 'auto',
                 }}
             >
-                <Viewer
-                    fileUrl="/pdf-open-parameters.pdf"
-                    plugins={[
-                        defaultLayoutPluginInstance,
-                    ]}
-                />
+                <Viewer fileUrl="/pdf-open-parameters.pdf" plugins={[defaultLayoutPluginInstance]} />
             </div>
         </Worker>
     );
 };
-  
+
 export default HomePage;

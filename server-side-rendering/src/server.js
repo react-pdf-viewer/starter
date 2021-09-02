@@ -16,17 +16,12 @@ const serverRenderer = (req, res, next) => {
             console.error(err);
             return res.status(500).send('Error');
         }
-        return res.send(
-            data.replace(
-                '<div id="root"></div>',
-                `<div id="root">${renderToString(<App/>)}</div>`
-            )
-        );
+        return res.send(data.replace('<div id="root"></div>', `<div id="root">${renderToString(<App />)}</div>`));
     });
 };
 
 router.use('^/$', serverRenderer);
-router.use(express.static(path.resolve( __dirname, '../dist')));
+router.use(express.static(path.resolve(__dirname, '../dist')));
 
 app.use(router);
 
