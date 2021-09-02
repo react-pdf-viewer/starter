@@ -1,0 +1,7 @@
+gatsbyjs/.cache
+gatsbyjs/public
+nextjs/.next
+parcel/.cache
+parcel/dist
+server-side-rendering/dist
+package-lock.json
