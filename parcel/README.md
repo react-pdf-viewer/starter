@@ -20,13 +20,13 @@ $ npm run build
 $ npm run dev
 ```
 
-Visit http://localhost:8001/. You can change the port `8001` in the `package.json` file:
+Visit http://localhost:1234/. You can change the port `1234` in the `package.json` file:
 
 ```json
 {
     ...,
     "scripts": {
-        "dev": "npm run copy && parcel src/index.html --out-dir dist --port 8001"
+        "dev": "npm run copy && parcel --port 1234"
     },
 }
 ```
