@@ -6,7 +6,7 @@
         "@react-pdf-viewer/core": "2.8.0",
         "@react-pdf-viewer/default-layout": "2.8.0",
         "gatsby": "^3.13.0",
-        "pdfjs-dist": "^2.9.359",
+        "pdfjs-dist": "^2.12.313",
         "react": "^17.0.2",
         "react-dom": "^17.0.2"
     },
