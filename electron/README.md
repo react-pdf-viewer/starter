@@ -18,27 +18,6 @@ It will open http://localhost:3000 on the default browser and run the Electron a
 
 ## Spotlights
 
-### Set the path to pdfjs-dist
-
-The latest version of `pdfjs-dist` uses some modern syntax that requires Webpack 5. The current version of [Create React App](https://github.com/facebook/create-react-app) doesn't support Webpack 5 yet, hence we have to choose the legacy build of `pdfjs-dist`.
-
-We need to use the [react-app-rewired](https://github.com/timarney/react-app-rewired) package to explicitly set the path of `pdfjs-dist`.
-
-[config-overrides.js](config-overrides.js):
-
-```js
-const path = require('path');
-
-module.exports = {
-    webpack: function (config, env) {    
-        config.resolve.alias['pdfjs-dist'] = path.join(__dirname, './node_modules/pdfjs-dist/legacy/build/pdf');
-        return config;
-    }
-};
-```
-
-### Use the Viewer component
-
 [App.js](src/App.js):
 
 ```js

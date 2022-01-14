@@ -6,23 +6,20 @@
     "dependencies": {
         "@react-pdf-viewer/core": "3.0.0",
         "@react-pdf-viewer/default-layout": "3.0.0",
-        "concurrently": "^6.2.1",
-        "electron": "^13.2.2",
-        "electron-builder": "^22.11.7",
+        "concurrently": "^7.0.0",
+        "electron": "^16.0.7",
+        "electron-builder": "^22.14.5",
         "electron-is-dev": "^2.0.0",
         "pdfjs-dist": "^2.12.313",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
-        "react-scripts": "^4.0.3",
+        "react-scripts": "^5.0.0",
         "wait-on": "^6.0.0"
     },
-    "devDependencies": {
-        "react-app-rewired": "^2.1.8"
-    },
     "scripts": {
-        "start": "react-app-rewired start",
-        "build": "react-app-rewired build",
-        "eject": "react-app-rewired eject",
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "eject": "react-scripts eject",
         "ebuild": "npm run build && node_modules/.bin/build",
         "dev": "concurrently \"npm start\" \"wait-on http://localhost:3000 && electron .\""
     },
