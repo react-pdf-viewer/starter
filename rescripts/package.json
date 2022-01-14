@@ -3,12 +3,12 @@
     "private": true,
     "version": "0.0.0",
     "dependencies": {
-        "@react-pdf-viewer/core": "2.7.2",
-        "@react-pdf-viewer/default-layout": "2.7.2",
-        "pdfjs-dist": "2.6.347",
+        "@react-pdf-viewer/core": "3.0.0",
+        "@react-pdf-viewer/default-layout": "3.0.0",
+        "pdfjs-dist": "2.12.313",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
-        "react-scripts": "^4.0.3"
+        "react-scripts": "^5.0.0"
     },
     "devDependencies": {
         "@rescripts/cli": "^0.0.15",

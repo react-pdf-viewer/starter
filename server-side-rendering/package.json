@@ -8,25 +8,25 @@
         "dev": "npm run build && nodemon index.js"
     },
     "dependencies": {
-        "@react-pdf-viewer/core": "2.7.2",
-        "@react-pdf-viewer/default-layout": "2.7.2",
-        "pdfjs-dist": "^2.9.359",
+        "@react-pdf-viewer/core": "3.0.0",
+        "@react-pdf-viewer/default-layout": "3.0.0",
+        "pdfjs-dist": "^2.12.313",
         "react": "^17.0.2",
         "react-dom": "^17.0.2"
     },
     "devDependencies": {
-        "@babel/core": "^7.15.0",
-        "@babel/preset-env": "^7.15.0",
-        "@babel/preset-react": "^7.14.5",
-        "@babel/register": "^7.15.3",
-        "babel-loader": "^8.2.2",
+        "@babel/core": "^7.16.7",
+        "@babel/preset-env": "^7.16.8",
+        "@babel/preset-react": "^7.16.7",
+        "@babel/register": "^7.16.9",
+        "babel-loader": "^8.2.3",
         "babel-plugin-module-resolver": "^4.1.0",
-        "css-loader": "^6.2.0",
-        "express": "^4.17.1",
-        "html-webpack-plugin": "^5.3.2",
-        "mini-css-extract-plugin": "^2.2.0",
-        "nodemon": "^2.0.12",
-        "webpack": "^5.51.1",
-        "webpack-cli": "^4.8.0"
+        "css-loader": "^6.5.1",
+        "express": "^4.17.2",
+        "html-webpack-plugin": "^5.5.0",
+        "mini-css-extract-plugin": "^2.4.7",
+        "nodemon": "^2.0.15",
+        "webpack": "^5.66.0",
+        "webpack-cli": "^4.9.1"
     }
 }
