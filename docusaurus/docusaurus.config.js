@@ -1,4 +1,4 @@
-const config = {    
+const config = {
     baseUrl: '/',
     i18n: {
         defaultLocale: 'en',
@@ -11,13 +11,13 @@ const config = {
     presets: [
         [
             'classic',
-            ({
+            {
                 docs: {
                     sidebarPath: require.resolve('./sidebars.js'),
                     // Please change this to your repo.
                     editUrl: 'https://github.com/react-pdf-viewer/starter/tree/main/docusaurus/',
-                }
-            })
+                },
+            },
         ],
     ],
 };
