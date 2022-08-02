@@ -9,13 +9,15 @@
         "build": "npm run copy && parcel build"
     },
     "dependencies": {
-        "@react-pdf-viewer/core": "3.0.0",
-        "@react-pdf-viewer/default-layout": "3.0.0",
-        "pdfjs-dist": "^2.12.313",
-        "react": "^17.0.2",
-        "react-dom": "^17.0.2"
+        "@react-pdf-viewer/core": "3.6.0",
+        "@react-pdf-viewer/default-layout": "3.6.0",
+        "pdfjs-dist": "^2.15.349",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
     },
     "devDependencies": {
-        "parcel": "^2.2.0"
+        "buffer": "^6.0.3",
+        "parcel": "^2.6.2",
+        "process": "^0.11.10"
     }
 }

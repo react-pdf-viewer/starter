@@ -1,12 +1,12 @@
 {
     "name": "@react-pdf-viewer/starter",
     "private": true,
-    "version": "3.0.0",
+    "version": "3.6.0",
     "description": "",
     "scripts": {
         "format": "prettier --write \"**/*.+(css|json|js|jsx|mdx|scss|ts|tsx)\""
     },
     "devDependencies": {
-        "prettier": "^2.3.2"
+        "prettier": "^2.7.1"
     }
 }
