@@ -4,6 +4,8 @@ gatsbyjs/public
 nextjs/.next
 parcel/.cache
 parcel/dist
+razzle/build
+razzle/cache
 server-side-rendering/dist
 snowpack/dist
 package-lock.json
