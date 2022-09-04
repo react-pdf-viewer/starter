@@ -33,7 +33,7 @@ export default defineConfig({
 
 ## Spotlights
 
-[App.jsx](src/App.jsx):
+[App.tsx](src/App.tsx):
 
 ```js
 import { Viewer, Worker } from '@react-pdf-viewer/core';
