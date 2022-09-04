@@ -20,7 +20,7 @@ $ npm run build
 $ npm run start
 ```
 
-Visit http://localhost:3000/. You can change the port `3000` in the main [entry point](src/index.ts):
+Visit http://localhost:3000/. You can change the port `3000` in the main [entry point](src/index.ts#L17):
 
 ```js
 // src/index.ts
@@ -52,7 +52,7 @@ module.exports = {
 
 ### Use the Viewer component
 
-[App.jsx](src/App.jsx):
+[App.tsx](src/App.tsx):
 
 ```js
 import { Viewer, Worker } from '@react-pdf-viewer/core';
